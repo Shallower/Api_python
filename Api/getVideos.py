@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request
 import pymysql
-
 #配置信息
 config = {
     'host': '123.207.110.222',
@@ -12,7 +11,7 @@ config = {
 }
 #打开数据库连接
 db = pymysql.connect(**config)
-# 使用cursor()方法获取操作游标
+# 使用cursor()ip
 cur = db.cursor()
 
 
